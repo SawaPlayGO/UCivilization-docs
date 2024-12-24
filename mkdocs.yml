@@ -26,5 +26,10 @@ theme:
     - content.code.save
     - content.code.edit
     - content.heading.permalink
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      
 extra: 
   generator: false
