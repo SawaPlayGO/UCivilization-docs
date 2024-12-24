@@ -221,7 +221,24 @@
   
     
   
-  Как создать город онлайн
+  Как создать город
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="levels/" class="md-tabs__link">
+        
+  
+    
+  
+  Уровни
 
       </a>
     </li>
@@ -303,7 +320,27 @@
         
   
   <span class="md-ellipsis">
-    Как создать город онлайн
+    Как создать город
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="levels/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Уровни
   </span>
   
 
@@ -327,140 +364,9 @@
                   
 
 
-<h1 id="_1">Главная страница</h1>
-<p>Конечно! Вот как будет выглядеть инструкция без преобразования в блоки кода и других элементов, чтобы всё отображалось просто как текст:</p>
+<h1 id="_1">Главная страница<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
 <hr />
-<p>Чтобы добавить подсветку синтаксиса для кода на Python или любом другом языке в MkDocs, можно использовать следующие подходы.</p>
-<ol>
-<li><strong>Добавление кода с подсветкой синтаксиса</strong></li>
-</ol>
-<p>Для того чтобы отображать код с подсветкой синтаксиса в MkDocs, необходимо использовать так называемые "fenced code blocks" (т.е. блоки с тройными обратными кавычками) с указанием языка. Например, если вы хотите подсветить Python код, используйте следующий формат:</p>
-<pre><code class="language-python">def hello_world():
-    print(&quot;Hello, world!&quot;)
-
-hello_world()
-
-</code></pre>
-<p>После того как MkDocs скомпилирует ваш сайт, этот код будет подсвечен как Python.</p>
-<ol>
-<li><strong>Убедитесь, что подсветка синтаксиса включена</strong></li>
-</ol>
-<p>Для правильной подсветки синтаксиса MkDocs использует библиотеку <strong>Pygments</strong>. В теме <strong>Material for MkDocs</strong> подсветка синтаксиса включена по умолчанию. Если же по какой-то причине подсветка не работает, вы можете вручную добавить расширение для подсветки синтаксиса в конфигурационный файл <code>mkdocs.yml</code>.</p>
-<p>Пример конфигурации <code>mkdocs.yml</code> с подсветкой синтаксиса:</p>
-<pre><code class="language-yaml">site_name: Minecraft Server Docs
-theme:
-  name: material
-  palette:
-    primary: 'indigo'
-    accent: 'lime'
-
-markdown_extensions:
-  - codehilite:
-      guess_lang: false  # Отключаем автоопределение языка
-  - fenced_code  # Включаем поддержку тройных кавычек для блоков кода
-</code></pre>
-<ol>
-<li><strong>Пример кода с подсветкой синтаксиса</strong></li>
-</ol>
-<p>Если вы хотите вставить пример кода в вашу документацию, используйте следующий формат Markdown:</p>
-<pre><code># Пример Python кода
-
-Ниже представлен пример простого Python кода:
-
-```python
-def add_numbers(a, b):
-    return a + b
-
-result = add_numbers(5, 10)
-print(result)
-</code></pre>
-<p>Этот код будет отображен с подсветкой синтаксиса для Python.</p>
-<pre><code>
-4. **Подсветка для других языков**
-
-Вместо `python` вы можете указать любой другой язык программирования, например:
-
-- Для JavaScript используйте `javascript`.
-- Для HTML — `html`.
-- Для CSS — `css`.
-- Для Java — `java`.
-
-5. **Установка Pygments**
-
-Если по каким-то причинам подсветка синтаксиса не работает, убедитесь, что у вас установлена библиотека **Pygments**, которая отвечает за подсветку синтаксиса:
-
-```bash
-pip install pygments
-</code></pre>
-<ol>
-<li><strong>Дополнительные параметры</strong></li>
-</ol>
-<p>В конфигурации <code>mkdocs.yml</code> можно настроить дополнительные параметры для подсветки, например, стиль подсветки. Темы подсветки можно найти в документации Pygments. </p>
-<hr />
-<p>С помощью этих шагов вы сможете добавить подсветку синтаксиса для различных языков программирования в вашу документацию на MkDocs.</p>
-<table>
-<thead>
-<tr>
-<th>First Header</th>
-<th>Second Header</th>
-<th>Third Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>First Header</th>
-<th>Second Header</th>
-<th>Third Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">First Header</th>
-<th style="text-align: center;">Second Header</th>
-<th style="text-align: right;">Third Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Left</td>
-<td style="text-align: center;">Center</td>
-<td style="text-align: right;">Right</td>
-</tr>
-<tr>
-<td style="text-align: left;">Left</td>
-<td style="text-align: center;">Center</td>
-<td style="text-align: right;">Right</td>
-</tr>
-</tbody>
-</table>
+<p>Тут пока пусто</p>
 
 
 

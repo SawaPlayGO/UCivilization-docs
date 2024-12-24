@@ -8,13 +8,11 @@
       
       
       
-        <link rel="canonical" href="https://sawaplaygo.github.io/docs/createTown/">
+        <link rel="canonical" href="https://sawaplaygo.github.io/docs/levels/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../createTown/">
       
-      
-        <link rel="next" href="../levels/">
       
       
       <link rel="icon" href="../images/logo.png">
@@ -22,7 +20,7 @@
     
     
       
-        <title>Как создать город - Документация</title>
+        <title>Уровни - Документация</title>
       
     
     
@@ -107,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Как создать город
+              Уровни
             
           </span>
         </div>
@@ -214,11 +212,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../createTown/" class="md-tabs__link">
         
   
     
@@ -233,9 +229,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../levels/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -305,6 +303,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../createTown/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Как создать город
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -317,28 +335,18 @@
         
       
       
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
   
   <span class="md-ellipsis">
-    Как создать город
+    Уровни
   </span>
   
 
-      </a>
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../levels/" class="md-nav__link">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -347,6 +355,92 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Уровни игрока
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Уровни игрока">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Префиксы
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как отображается в чате
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Уровни города
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Уровни города">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Префиксы
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как отображается в табе
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -366,9 +460,115 @@
                   
 
 
-<h1 id="_1">Как создать город<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
+<h1 id="_1">Уровни<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
+<p>Система уровней на сервере, предназначенная для прокачки как личного состояня игрока, так и для прокачки поселений. 
+Участие в рейтинговой борьбе как личной так и командной.</p>
 <hr />
-<p>Тут пока пусто</p>
+<h2 id="_2">Уровни игрока<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<p>Максимальный уровень который может получить игрок это <strong>100</strong>.
+Игрок может учавствовать в квестах для получения опыта который в свою очередь преобразуется в уровни игрока.
+Полну информацию об уровне можно получить в меню прописав команду <code>/уровень</code>. </p>
+<p><img alt="Меню уровня игрока" src="../images/level_player_menu.png" /></p>
+<p>Вам откроется меню со всем уровнями и наградами за последующий вы можете просмотреть абсолютно все узнав требования и получаемы награды.
+Так же вы можете просмотреть количество опыта до следующего уровня</p>
+<p><img alt="Посомтреть шкалу уровня" src="../images/level_player_current_xp.png" /></p>
+<h3 id="_3">Префиксы<a class="headerlink" href="#_3" title="Permanent link">#</a></h3>
+<p>Существуют так же префиксы для обозначения уровня, это иконки домика <code>☖ &lt;текущий уровень&gt;</code>, цвет этих домиков меняется каждые <strong>10</strong> уровней, а на <strong>100</strong> становится жирным цветом, вот таблица для наглядности:</p>
+<table>
+<thead>
+<tr>
+<th>Цвет домика</th>
+<th>Диапазон уровней</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Домик 1" src="../images/house1.png" /></td>
+<td>1-10</td>
+</tr>
+<tr>
+<td><img alt="Домик 2" src="../images/house2.png" /></td>
+<td>11-20</td>
+</tr>
+<tr>
+<td><img alt="Домик 3" src="../images/house3.png" /></td>
+<td>21-30</td>
+</tr>
+<tr>
+<td><img alt="Домик 4" src="../images/house4.png" /></td>
+<td>31-40</td>
+</tr>
+<tr>
+<td><img alt="Домик 5" src="../images/house5.png" /></td>
+<td>41-50</td>
+</tr>
+<tr>
+<td><img alt="Домик 6" src="../images/house6.png" /></td>
+<td>51-60</td>
+</tr>
+<tr>
+<td><img alt="Домик 7" src="../images/house7.png" /></td>
+<td>61-70</td>
+</tr>
+<tr>
+<td><img alt="Домик 8" src="../images/house8.png" /></td>
+<td>71-80</td>
+</tr>
+<tr>
+<td><img alt="Домик 9" src="../images/house9.png" /></td>
+<td>81-90</td>
+</tr>
+<tr>
+<td><img alt="Домик 10" src="../images/house10.png" /></td>
+<td>91-100</td>
+</tr>
+<tr>
+<td><img alt="Домик 11" src="../images/house11.png" /></td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">Как отображается в чате<a class="headerlink" href="#_4" title="Permanent link">#</a></h2>
+<p>Так же префиксы уровня игрока отображаются и в чате перед городом
+<img alt="Префикс чата" src="../images/level_player_prefix_chat.png" /></p>
+<h2 id="_5">Уровни города<a class="headerlink" href="#_5" title="Permanent link">#</a></h2>
+<p>Уровни города сильно похожи по механике на уровни игрока они так же используют опыт для получения всё более высоких уровней. Всего городских уровней <strong>30</strong>, получать их можно совместно что делает кооперативную игру более простой, в отличие от игроков-одиночек. Пока что уровни города можно зарабатывать только выполняя квесты города.</p>
+<p>Что бы открыть меню городских уровней используйте <code>/уровень_город</code>.</p>
+<p><img alt="Меню уровня игрока" src="../images/level_town_menu.png" /></p>
+<p>Так же как и в уровнях игрока вы можете просмотреть прогресс уровня своего города</p>
+<p><img alt="Меню уровня игрока" src="../images/progress_bar_town_menu.png" /></p>
+<p>Так же напомню что при удалении города удаляется и весь его прогресс, эта статистика никак не возобновляется.</p>
+<h3 id="_6">Префиксы<a class="headerlink" href="#_6" title="Permanent link">#</a></h3>
+<p>Префиксы так же присуще и городским уровням, они схожи с механикой уровней игрока, но имеют иконку <code>◇</code>, а так же для последнего уровня <code>◆</code>, меняются каждые <strong>10</strong> уровней вот как они выглядят:</p>
+<table>
+<thead>
+<tr>
+<th>Цвет ромба</th>
+<th>Диапазон уровней</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Ромб 1" src="../images/romb1.png" /></td>
+<td>1-10</td>
+</tr>
+<tr>
+<td><img alt="Ромб 2" src="../images/romb2.png" /></td>
+<td>11-20</td>
+</tr>
+<tr>
+<td><img alt="Ромб 3" src="../images/romb3.png" /></td>
+<td>21-29</td>
+</tr>
+<tr>
+<td><img alt="Ромб 4" src="../images/romb4.png" /></td>
+<td>30</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_7">Как отображается в табе<a class="headerlink" href="#_7" title="Permanent link">#</a></h3>
+<p>Так же уровни города имеют отображения в <code>TAB</code> перед профессией игрока внутри города</p>
+<p><img alt="Префикс в табе" src="../images/prefix_tab.png" /></p>
 
 
 
